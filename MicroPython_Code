@@ -1,0 +1,23 @@
+from machine import Pin
+import utime
+
+Led_R = Pin(3,Pin.OUT)
+Led_G = Pin(2,Pin.OUT)
+Led_B = Pin(4,Pin.OUT)
+
+Led_R.value(0)   
+Led_G.value(0)   
+Led_B.value(0) 
+
+while True:
+    Led_R.toggle()
+    utime.sleep(1)
+    Led_R.toggle()
+    
+    Led_G.toggle()
+    utime.sleep(1)
+    Led_G.toggle()
+    
+    Led_B.toggle()
+    utime.sleep(1)
+    Led_B.toggle()
