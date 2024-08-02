@@ -32,6 +32,9 @@ To control RGB module by interfacing with Raspberry Pi Pico using Micropython co
 
  ![RGB-LED-Raspberry-Pi-Pico-1](https://github.com/user-attachments/assets/87ac053d-c829-4937-8207-0531e71e6d2e)
 
+ ![IMG](https://github.com/user-attachments/assets/78ba9644-7d04-4db9-b6a3-42f7535718f1)
+
+
 The lights switch between red, green and blue; there’s also a delay of one second between them.
 
 
