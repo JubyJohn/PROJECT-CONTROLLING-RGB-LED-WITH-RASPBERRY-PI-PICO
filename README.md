@@ -4,6 +4,7 @@
 ## AIM
 To control RGB module by interfacing with Raspberry Pi Pico using Micropython code
 
+
 ## COMPONENTS
 1) Raspberry Pi Pico
 2) RGB Sensor Module
